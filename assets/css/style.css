@@ -136,13 +136,12 @@ button:hover {
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
-#portfolio {
+#nav-links a:nth-child(2) {
   border-style: solid;
   border-color: #cccccc;
   border-width: 0 1px 0 1px;
   padding: 0 5px 0 5px;
 }
-
 
 /**
   * Main Content Section styles
