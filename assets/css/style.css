@@ -1,4 +1,3 @@
-cd
 html, body {
   background-image: url("../images/sayagata-400px.png");
   width: 100%;
@@ -30,7 +29,6 @@ h1 {
 h3 {
   font-size: 20px;
   color: #4aaaa5;
-  padding: 16px;
 }
 
 #main h3 {
@@ -62,9 +60,7 @@ hr {
 
 .content {
   margin: 0 10px;
-  width: 960px;
   text-align: center;
-  display: inline-block;
 }
 
 /**
@@ -83,16 +79,10 @@ hr {
   * Email Form styles, textarea and buttons
   */
 #messageform {
-  width: 630px;
+
   text-align: left;
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   color: #777777;
-}
-
-textarea, input {
-  width: 615px;
-  margin-top: 7px;
-  padding: 1px;
 }
 
 button {
@@ -101,9 +91,6 @@ button {
   color: white;
   background-color: #4aaaa5;
   float:left;
-  padding: 15px 25px;
-  margin-top: 15px;
-  border-width: 0px;
 }
 
 button:hover {
@@ -115,7 +102,6 @@ button:hover {
   */
 #top-logo {
   width: 175px;
-  float: left;
 }
 
 #top-bar {
@@ -126,12 +112,10 @@ button:hover {
   border-width: 0px 0px 3px 0px;
   border-color: #cccccc;
   background-color: #ffffff;
-  min-width:960px;
   width: 100%;
 }
 
 #nav-links {
-  float: right;
   margin-top: 50px;
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
@@ -148,15 +132,11 @@ button:hover {
   */
 
 #main {
-  float: left;
   padding: 0 20px 20px 20px;
-  width: 610px;
 }
 
 #sidebar {
   padding: 0 10px 0 10px;
-  width: 250px;
-  float: right;
 }
 
 #main, #sidebar {
@@ -187,8 +167,6 @@ button:hover {
   border-width: 7px 0px 0px 0px;
   border-color: #4aaaa5;
   background-color: #666666;
-  min-width: 960px;
-  width: 100%;
 }
 
 #footer p {
@@ -225,7 +203,7 @@ img#stackfix{
   */
 
 .module {
-  height: 250px;
+  height: auto;
   width: 45%;
   float: left;
   margin: 10px;
